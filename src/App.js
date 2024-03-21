@@ -5,18 +5,14 @@ import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <NavBar></NavBar>
-
-        <br></br>
-        <div className="description">
-          <span>Savor the Flavor, Delivered to Your Door.</span>
-        </div>
-        <div></div>
-      </div>
-    </>
   );
+  function Header() {
+    return (
+      <div>
+        <P>Test</P>
+      </div>
+    );
+  }
 }
 
 export default App;
