@@ -13,6 +13,7 @@ function App() {
         <div className="description">
           <span>Savor the Flavor, Delivered to Your Door.</span>
         </div>
+        <div></div>
       </div>
     </>
   );
