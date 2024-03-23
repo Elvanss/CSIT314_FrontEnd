@@ -1,0 +1,107 @@
+.login {
+  width: 100%;
+}
+.btn-primary {
+  height: 3rem;
+  border-radius: 22px;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #666666;
+  --bs-btn-border-color: #666666;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #666666;
+  --bs-btn-hover-border-color: #666666;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #666666;
+  --bs-btn-active-border-color: #666666;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #666666;
+  --bs-btn-disabled-border-color: #666666;
+}
+.login-btn {
+  background-color: #666666;
+  width: 100%;
+}
+.font-email {
+  font: 1rem "Poppins";
+}
+.sign-in {
+  font: 1.56rem "Poppins";
+}
+.label {
+  font: 2.5rem "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-right: 78%;
+}
+.email {
+  margin-top: 1.5rem;
+}
+.password {
+  margin-top: 2rem;
+}
+.form-check {
+  margin-top: 0.75rem;
+}
+.form-label {
+  margin-left: 0.5rem;
+}
+.change {
+  text-decoration: auto;
+  color: black;
+}
+.button {
+  margin-left: 12rem;
+}
+.login-form {
+  width: 29rem;
+  height: 22rem;
+}
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-part {
+  margin-top: 1rem;
+  padding: 10px;
+  display: block;
+}
+.reset-pass {
+  margin-left: 45%;
+}
+.sign-up {
+  margin-left: 42%;
+}
+.third-part {
+  margin-left: 49%;
+}
+.third-part-2 {
+  margin-top: 1.5rem;
+  margin-left: 44.1%;
+}
+.btn-gg {
+  color: black;
+  height: 3rem;
+  border: 1px solid black;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #fff;
+  --bs-btn-border-color: black;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: white;
+  --bs-btn-hover-border-color: black;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: black;
+  --bs-btn-active-bg: #fff;
+  --bs-btn-active-border-color: #fff;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #fff;
+  --bs-btn-disabled-border-color: #666666;
+}
+.haha {
+  color: black;
+}

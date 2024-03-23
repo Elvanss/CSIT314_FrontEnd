@@ -1,25 +1,27 @@
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import { Link } from "react-router-dom";
 import "./Login.css";
 
 export default function Login() {
   return (
     <>
       <div className="login">
-        <div className="label">App Name</div>
+        <Link to="/" className="change">
+          <div className="label font">App name</div>
+        </Link>
+
         <br />
-        <div className="login-form">
-          <Form>
-            <div className="sign-up">Sign Up</div>
-            <br />
+        <div className="login-box">
+          <Form className="login-form">
+            <div className="sign-in">Sign in</div>
             <Form.Group className="email" controlId="formBasicEmail">
-              <Form.Label>Email address</Form.Label>
-              <Form.Control type="email" placeholder="Enter email" />
+              <Form.Label className="font-email">Email address</Form.Label>
+              <Form.Control type="email" />
             </Form.Group>
-            <br />
             <Form.Group className="password" controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
-              <Form.Control type="password" placeholder="Password" />
+              <Form.Label className="font-email">Password</Form.Label>
+              <Form.Control type="password" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="Remember me" />
@@ -27,8 +29,7 @@ export default function Login() {
             <Form.Label>
               By continuing, you agree to the Terms of use and Privacy Policy.{" "}
             </Form.Label>
-            <br />
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" className="login-btn">
               Submit
             </Button>
           </Form>
@@ -39,8 +40,19 @@ export default function Login() {
           </div>
           <br></br>
           <div className="sign-up">
-            <span>Don’t have an acount? Sign up </span>
+            <span>
+              Don’t have an acount?{" "}
+              <Link to="/signup" className="change">
+                Sign up here
+              </Link>
+            </span>
           </div>
+        </div>
+        <div className="third-part">
+          <span className="or">OR</span>
+        </div>
+        <div className="third-part-2">
+          <Button className="btn-gg"><span className="haha">Continue with Google</span></Button>
         </div>
       </div>
     </>

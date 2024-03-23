@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import "./NavBar.css";
+import "./transit.css";
 
 export default function NavBar() {
   return (
@@ -11,16 +11,19 @@ export default function NavBar() {
       <div className="nav-bar">
         <Navbar expand="lg" className="bg-body-tertiary">
           <Container>
-            <Navbar.Brand href="#hah">App Name</Navbar.Brand>
+            <Link to="/">
+              <Navbar.Brand>App Name</Navbar.Brand>
+            </Link>
+
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Link to="login">
+                <Link to="/login" className="change">
                   <Button className="login-button" variant="light" size="lg">
-                    Login
+                    <span className="login-context">Login</span>
                   </Button>{" "}
                 </Link>
-                <Link to="signup">
+                <Link to="/signup" className="change">
                   <Button variant="dark" size="lg">
                     Sign Up
                   </Button>
