@@ -1,0 +1,19 @@
+.nav-bar {
+  width: 100%;
+}
+.navbar-collapse {
+  margin-left: 62rem;
+}
+.navbar-nav {
+  display: block;
+  width: 24rem;
+  margin-left: 2rem;
+  padding-left: 9rem;
+}
+.container {
+  margin: 0;
+}
+.move-left {
+  margin-left: 84%;
+  border: 5px solid;
+}

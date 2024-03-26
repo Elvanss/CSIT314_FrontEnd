@@ -1,0 +1,31 @@
+.App {
+  width: 100%;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cust-btn {
+  --bs-btn-bg: #3fc060;
+  --bs-btn-hover-bg: #3fc060;
+}
+.res-btn {
+  --bs-btn-bg: #3fc060;
+  --bs-btn-hover-bg: #3fc060;
+}
+.font-des {
+  font: 2.5rem "Poppins";
+  font-weight: 600;
+}
+.customer {
+  margin-right: 2rem;
+}
+.restaurant {
+  margin-left: 4rem;
+}
+.des {
+  margin-top: 14%;
+  margin-bottom: 3%;
+  margin-left: 33%;
+}

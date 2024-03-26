@@ -1,18 +1,21 @@
-import logo from "./logo.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/sign_up/NavBar";
 
 function App() {
   return (
-  );
-  function Header() {
-    return (
-      <div>
-        <P>Test</P>
+    <>
+      <div className="App" >
+        <NavBar></NavBar>
+        <br></br>
+        <div className="description">
+          <span className="context">Savor the Flavor, Delivered to Your Door.</span>
+        </div>
+        <div></div>
       </div>
-    );
-  }
+    </>
+  );
+  
 }
 
 export default App;
