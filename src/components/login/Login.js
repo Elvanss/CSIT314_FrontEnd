@@ -29,7 +29,7 @@ export default function Login() {
             <Form.Label>
               By continuing, you agree to the Terms of use and Privacy Policy.{" "}
             </Form.Label>
-            <Button variant="primary" type="submit" className="login-btn">
+            <Button variant="secondary" type="submit" className="login-btn">
               Submit
             </Button>
           </Form>
@@ -52,7 +52,9 @@ export default function Login() {
           <span className="or">OR</span>
         </div>
         <div className="third-part-2">
-          <Button className="btn-gg"><span className="haha">Continue with Google</span></Button>
+          <Button variant="light">
+            <span className="haha">Continue with Google</span>
+          </Button>
         </div>
       </div>
     </>

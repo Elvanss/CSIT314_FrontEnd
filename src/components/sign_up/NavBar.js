@@ -3,7 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import "./transit.css";
+import "./NavBar.css";
 
 export default function NavBar() {
   return (
@@ -17,7 +17,7 @@ export default function NavBar() {
 
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+              <Nav className="move">
                 <Link to="/login" className="change">
                   <Button className="login-button" variant="light" size="lg">
                     <span className="login-context">Login</span>
